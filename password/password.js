@@ -17,7 +17,7 @@ pass.addEventListener('input',() => {
     else if(pass.value.length >= 4 && pass.value.length < 8){
         str.innerHTML = "medium";
         pass.style.borderColor = "yellow";
-        msg.style.color = "yellow";
+        msg.style.color = "#FFEA00";
     }
     else if(pass.value.length >= 8) {
         str.innerHTML = "strong";
